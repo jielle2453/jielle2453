@@ -1,43 +1,39 @@
 ### Hi, I'm Jielle Lu 呂筱婕 👋
 
-**UX / UI Research Designer** · Research-led design, designer-grade research.
+**AI Application Engineer** · LLM agents and RAG, with a UX research background.
 
-I design with research and build with code: Figma for the interface, Python and SPSS for the evidence, and generative AI to get from idea to working prototype fast.<br>
-B.S. Informatics, National Taiwan Normal University ('26) · exchange at Nanjing University · open to 2026 full-time roles.
+I build AI products end to end: requirements, system design, model integration, evaluation and deployment. Coming from UX research and interface design, I care as much about whether people can understand, trust and use a model as about how well it scores, and I turn those needs into features, error handling and tests.<br>
+B.S. Informatics, National Taiwan Normal University ('26) · exchange at Nanjing University · UI/UX intern at PictureCook, an AI startup (2025–26) · open to 2026 full-time roles.
 
 🌐 **Portfolio:** [jielle2453.github.io/jielle](https://jielle2453.github.io/jielle/)
 
 ---
 
-### 🛠 Things I'm building
+### 🛠 Projects
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**Whyscope 好奇鏡**](https://github.com/jielle2453/whyscope) | An on-device "why" tool for kids aged 5–8: ask a question (or show the camera an object) and get a child-level, source-cited answer, with a parent page. No cloud AI at run time. *ASUS UGen AI League 2026.* | Python · faster-whisper · local LLM |
-| [**Emotion Shredder 情緒碎紙機**](https://github.com/jielle2453/emotion-shredder-demo) | An emotional-release ritual app: write a feeling down, shred it, and watch it grow into a flower. · [**Live demo →**](https://jielle2453.github.io/emotion-shredder-demo/) | React · Vite · Supabase · AI |
-| [**wiki-with-willy**](https://github.com/jielle2453/wiki-with-willy) | A Claude desktop plugin that turns years of folders into a knowledge base you can ask questions, with every answer cited to its source file. | Claude plugin · Python |
-| [**Portfolio**](https://github.com/jielle2453/jielle) | My portfolio site and case studies. | Astro |
+| [**wiki-with-willy**](https://github.com/jielle2453/wiki-dev) | An AI knowledge base built on the LLM Wiki pattern and shipped as a Claude Code plugin. I merged two earlier prototypes into the first version and lead the architecture in a three-person team. Hooks limit what the agent can read and write, and git records every change so it can be undone. 47 releases in a month, 4,300+ tests. | Python · Claude Code plugin (skills, hooks, subagents) · Git · unittest |
+| [**Whyscope 好奇鏡**](https://github.com/jielle2453/whyscope) | On-device multimodal Q&A for kids aged 5–8. Speech, image recognition, vector search and a local LLM, with no cloud at run time; the first spoken sentence arrives in about 0.3 s. The 1.5B model may only rephrase retrieved facts, and a 180-question eval set tunes when it refuses (91.7% correct). *ASUS UGen AI League 2026, top 20.* | Python · FastAPI · faster-whisper · sentence-transformers · Qwen2.5-1.5B · YOLOv8 · OpenCLIP |
+| [**Chitchat Tour**](https://github.com/jielle2453/chitchat-tour) | A walking-guide agent that explains everyday things on the street. It picks stories by GPS location and the visitor's home country, and checks facts with web search filtered to whitelisted sources. Six Meta models, a daily request cap and a no-key mock mode. *Meta Global AI Developer Hackathon.* · [Demo →](https://chitchat-tour.vercel.app) | TypeScript · Next.js · Meta Muse Spark · SAM 3.1 · MediaPipe · Vercel |
+| [**Emotion Shredder 情緒碎紙機**](https://github.com/jielle2453/emotion-shredder-demo) | A journaling app: write a feeling down, shred it, and watch it grow into one of 12 flowers. Solo, from user research and Figma to launch. · [Demo →](https://jielle2453.github.io/emotion-shredder-demo/) | React · Vite · Supabase · Gemini API |
 
-### 📐 Case studies
-
-- **[LinePay Redesign](https://jielle2453.github.io/jielle/linepay)** (2024): Taiwan's most-used mobile payment app, redesigned around the payment flow. SUS 52.5 → 72.5, task time −46 s.
-- **[Fidgi Grow](https://jielle2453.github.io/jielle/fidgi)** (2025): a hormone-aware ADHD support app for women, paired with an NFC fidget toy.
-- **[Emotion Shredder](https://jielle2453.github.io/jielle/emotion-shredder)** (2026–): solo project, from UX research to a working prototype.
-
-### 🤝 Contributed to
+### 🤝 Team projects
 
 | Project | What it is | My part |
 |---|---|---|
-| [**VIRAL**](https://github.com/RoyWG925/viral-town) | Whisper one sentence to a resident of a living harbor town and watch Gemma play out the chain reaction until the 20:00 festival. *AMD Developer Hackathon ACT III, Track 4.* · [**Play →**](https://viral-town.vercel.app) | Story card and share card, streaming reactions, camera shots, playtesting and e2e tests, README |
-| [**LLM Wiki**](https://github.com/Q00jkf/llm-wiki-plugin) | An AI project-management assistant that runs on Obsidian and is driven by Claude Code. | Prepared the 1.0.0 public release: docs cleanup and release fixes |
-| [**PTT Stock Sentiment and the TAIEX**](https://github.com/RoyWG925/ptt-sentiment-stock-analysis) | NTNU capstone: a fine-tuned multilingual BERT on PTT Stock comments, event-studied against the TAIEX during the April 2025 tariff shock. | Co-author (three-person team) |
+| [**Viral Town**](https://github.com/theroyatlas/viral-town) | An AI-driven town simulation game. *AMD Developer Hackathon ACT III, two-person team.* · [Play →](https://viral-town.vercel.app) | Co-designed the gameplay and the split between Gemma and the rules engine; early research, mechanics and business model, UI and visuals, competition materials |
+| [**PTT Stock Sentiment × TAIEX**](https://github.com/theroyatlas/ptt-sentiment-stock-analysis) | NTNU research project: PTT Stock board sentiment against the TAIEX during the April 2025 tariff shock, using a fine-tuned multilingual BERT. *Three-person team.* | Planned the research process and led the final synthesis and report; helped with data labelling and BERT fine-tuning |
 
-### 🧰 Tools & methods
+### 📐 Design work
 
-**Design:** Figma · Prototyping · Information Architecture<br>
-**Research:** User Interviews · Surveys · Personas · Journey Mapping · Usability Testing · SUS<br>
-**Code & data:** Python · SPSS · React · TypeScript · Astro
+UX case studies on my [portfolio](https://jielle2453.github.io/jielle/): [LinePay Redesign](https://jielle2453.github.io/jielle/linepay) (SUS 52.5 → 72.5, task time −46 s) · [Fidgi Grow](https://jielle2453.github.io/jielle/fidgi) · [Emotion Shredder](https://jielle2453.github.io/jielle/emotion-shredder)
 
----
+### 🧰 Skills
+
+**LLM & agents:** Claude Code (skills, hooks, subagents) · tool calling · RAG · structured output · evaluation<br>
+**Models:** Claude · Gemini · OpenAI-compatible APIs · Qwen2.5 · faster-whisper · sentence-transformers · SAM 3.1<br>
+**Backend & data:** Python · FastAPI · Next.js · Supabase · SQLite<br>
+**Frontend & design:** TypeScript · React · Figma · UX research · usability testing
 
 📫 [jielle2453@gmail.com](mailto:jielle2453@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jielle) · [Behance](https://www.behance.net/jielle)
